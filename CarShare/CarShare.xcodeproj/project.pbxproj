@@ -126,8 +126,8 @@
 			isa = PBXGroup;
 			children = (
 				7951CBFB28D2CCD20094A61B /* AppDelegate.swift */,
-				7951CBFD28D2CCD30094A61B /* CarController.swift */,
 				7951CBFA28D2CCD20094A61B /* CTTabbarController.swift */,
+				7951CBFD28D2CCD30094A61B /* CarController.swift */,
 				7951CBF928D2CCD20094A61B /* MineController.swift */,
 				7951CBFC28D2CCD30094A61B /* ShopController.swift */,
 				7951CBCA28D1C9FC0094A61B /* Assets.xcassets */,

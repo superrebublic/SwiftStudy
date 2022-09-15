@@ -10,22 +10,4 @@ import UIKit
 
 class CarController : UIViewController {
     
-    override func viewDidLoad() {
-        self.createUI()
-    }
-    
-    func createUI(){
-        let carController = CarController.init()
-        let shopController = ShopController.init()
-        let mineController = MineController.init()
-        self.configTab(vc: carController, title: "好车易赚", image: "icon_tab_car", selectImage: "icon_tab_car2")
-        self.configTab(vc: shopController, title: "达人养成", image: "icon_tab_shop", selectImage: "icon_tab_shop2")
-        self.configTab(vc: mineController, title: "我的", image: "icon_tab_user", selectImage: "icon_tab_user2")
-    }
-    
-    func configTab(vc:UIViewController, title: String, image: String,selectImage:String) -> Void {
-        vc.tabBarItem.image = UIImage.init(named: title)
-        vc.tabBarItem.title = title;
-        vc.tabBarItem.selectedImage = UIImage.init(named: selectImage)
-    }
 }
