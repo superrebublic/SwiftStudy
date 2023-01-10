@@ -18,6 +18,13 @@
 		7951CC0028D2CCD30094A61B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951CBFB28D2CCD20094A61B /* AppDelegate.swift */; };
 		7951CC0128D2CCD30094A61B /* ShopController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951CBFC28D2CCD30094A61B /* ShopController.swift */; };
 		7951CC0228D2CCD30094A61B /* CarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951CBFD28D2CCD30094A61B /* CarController.swift */; };
+		7951CC0428D30A7D0094A61B /* ConstantFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951CC0328D30A7D0094A61B /* ConstantFile.swift */; };
+		7951CC0628D4423B0094A61B /* ShopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7951CC0528D4423B0094A61B /* ShopCell.swift */; };
+		7961FBE12925C7DB00736D0A /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7961FBE02925C7DB00736D0A /* HomeModel.swift */; };
+		7961FBE32925D01700736D0A /* HomeClassifyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7961FBE22925D01700736D0A /* HomeClassifyViewModel.swift */; };
+		79E6A8B628F945D800DB9400 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E6A8B528F945D800DB9400 /* ApiService.swift */; };
+		79EA445C292DBA0E00DF1176 /* HomeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EA445B292DBA0D00DF1176 /* HomeAPI.swift */; };
+		79EA4461293452EE00DF1176 /* HomeListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EA4460293452EE00DF1176 /* HomeListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +59,14 @@
 		7951CBFB28D2CCD20094A61B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../../../../Desktop/AppDelegate.swift; sourceTree = "<group>"; };
 		7951CBFC28D2CCD30094A61B /* ShopController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopController.swift; sourceTree = "<group>"; };
 		7951CBFD28D2CCD30094A61B /* CarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarController.swift; sourceTree = "<group>"; };
+		7951CC0328D30A7D0094A61B /* ConstantFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantFile.swift; sourceTree = "<group>"; };
+		7951CC0528D4423B0094A61B /* ShopCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCell.swift; sourceTree = "<group>"; };
+		795B527B296D0655003C2B39 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		7961FBE02925C7DB00736D0A /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		7961FBE22925D01700736D0A /* HomeClassifyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeClassifyViewModel.swift; sourceTree = "<group>"; };
+		79E6A8B528F945D800DB9400 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		79EA445B292DBA0D00DF1176 /* HomeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAPI.swift; sourceTree = "<group>"; };
+		79EA4460293452EE00DF1176 /* HomeListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeListCell.swift; sourceTree = "<group>"; };
 		B230CDEF85D5B430F112A97E /* Pods-CarShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarShare.debug.xcconfig"; path = "Target Support Files/Pods-CarShare/Pods-CarShare.debug.xcconfig"; sourceTree = "<group>"; };
 		B642DDF349C591B98DCDCE4C /* Pods-CarShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarShare.release.xcconfig"; path = "Target Support Files/Pods-CarShare/Pods-CarShare.release.xcconfig"; sourceTree = "<group>"; };
 		FDE33DD24FD0010C667C9445 /* libPods-CarShare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarShare.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,14 +140,18 @@
 		7951CBC028D1C9F90094A61B /* CarShare */ = {
 			isa = PBXGroup;
 			children = (
+				79E6A8B428F945A100DB9400 /* ApiService */,
+				79E6A8B328F943F800DB9400 /* Mine */,
+				79E6A8B228F943DD00DB9400 /* Car */,
+				79E6A8B128F943C600DB9400 /* Tab */,
 				7951CBFB28D2CCD20094A61B /* AppDelegate.swift */,
-				7951CBFA28D2CCD20094A61B /* CTTabbarController.swift */,
-				7951CBFD28D2CCD30094A61B /* CarController.swift */,
-				7951CBF928D2CCD20094A61B /* MineController.swift */,
+				7951CC0528D4423B0094A61B /* ShopCell.swift */,
 				7951CBFC28D2CCD30094A61B /* ShopController.swift */,
+				7951CC0328D30A7D0094A61B /* ConstantFile.swift */,
 				7951CBCA28D1C9FC0094A61B /* Assets.xcassets */,
 				7951CBCC28D1C9FC0094A61B /* LaunchScreen.storyboard */,
 				7951CBCF28D1C9FC0094A61B /* Info.plist */,
+				795B527B296D0655003C2B39 /* Bridging-Header.h */,
 			);
 			path = CarShare;
 			sourceTree = "<group>";
@@ -154,6 +173,82 @@
 			path = CarShareUITests;
 			sourceTree = "<group>";
 		};
+		7961FBDB2923602E00736D0A /* C */ = {
+			isa = PBXGroup;
+			children = (
+				7951CBFD28D2CCD30094A61B /* CarController.swift */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		7961FBDC2923612A00736D0A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7961FBE02925C7DB00736D0A /* HomeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7961FBDD2923613A00736D0A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7961FBE22925D01700736D0A /* HomeClassifyViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		79E6A8B128F943C600DB9400 /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				7951CBFA28D2CCD20094A61B /* CTTabbarController.swift */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		79E6A8B228F943DD00DB9400 /* Car */ = {
+			isa = PBXGroup;
+			children = (
+				79EA445F293452D200DF1176 /* View */,
+				79EA445E292DBA2500DF1176 /* API */,
+				7961FBDD2923613A00736D0A /* ViewModel */,
+				7961FBDC2923612A00736D0A /* Model */,
+				7961FBDB2923602E00736D0A /* C */,
+			);
+			path = Car;
+			sourceTree = "<group>";
+		};
+		79E6A8B328F943F800DB9400 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				7951CBF928D2CCD20094A61B /* MineController.swift */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		79E6A8B428F945A100DB9400 /* ApiService */ = {
+			isa = PBXGroup;
+			children = (
+				79E6A8B528F945D800DB9400 /* ApiService.swift */,
+			);
+			path = ApiService;
+			sourceTree = "<group>";
+		};
+		79EA445E292DBA2500DF1176 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				79EA445B292DBA0D00DF1176 /* HomeAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		79EA445F293452D200DF1176 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				79EA4460293452EE00DF1176 /* HomeListCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -165,6 +260,7 @@
 				7951CBBA28D1C9F90094A61B /* Sources */,
 				7951CBBB28D1C9F90094A61B /* Frameworks */,
 				7951CBBC28D1C9F90094A61B /* Resources */,
+				D60E0BC9F6FB763BB6C162DF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -303,6 +399,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D60E0BC9F6FB763BB6C162DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarShare/Pods-CarShare-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarShare/Pods-CarShare-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarShare/Pods-CarShare-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -312,9 +425,16 @@
 			files = (
 				7951CC0228D2CCD30094A61B /* CarController.swift in Sources */,
 				7951CC0028D2CCD30094A61B /* AppDelegate.swift in Sources */,
+				79EA4461293452EE00DF1176 /* HomeListCell.swift in Sources */,
+				7961FBE12925C7DB00736D0A /* HomeModel.swift in Sources */,
+				79EA445C292DBA0E00DF1176 /* HomeAPI.swift in Sources */,
+				7951CC0628D4423B0094A61B /* ShopCell.swift in Sources */,
 				7951CBFE28D2CCD30094A61B /* MineController.swift in Sources */,
 				7951CBFF28D2CCD30094A61B /* CTTabbarController.swift in Sources */,
 				7951CC0128D2CCD30094A61B /* ShopController.swift in Sources */,
+				7961FBE32925D01700736D0A /* HomeClassifyViewModel.swift in Sources */,
+				79E6A8B628F945D800DB9400 /* ApiService.swift in Sources */,
+				7951CC0428D30A7D0094A61B /* ConstantFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,8 +604,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98ZL4K5SEZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CarShare/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -498,9 +620,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = fdfdf.CarShare;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chetuan.carshare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/chetuan/Documents/GitHub/SwiftStudy/CarShare/CarShare/Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -512,8 +636,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98ZL4K5SEZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CarShare/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -526,9 +652,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = fdfdf.CarShare;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chetuan.carshare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/chetuan/Documents/GitHub/SwiftStudy/CarShare/CarShare/Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

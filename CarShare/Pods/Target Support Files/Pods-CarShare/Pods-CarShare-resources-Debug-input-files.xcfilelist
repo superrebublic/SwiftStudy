@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-CarShare/Pods-CarShare-resources.sh
+${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle
+${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/SwiftMessages/SwiftMessages.bundle

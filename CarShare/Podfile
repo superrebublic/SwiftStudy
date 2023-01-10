@@ -3,8 +3,16 @@
 platform :ios, '11.0'
 
 target 'CarShare' do
-    #解析
     pod 'SnapKit'
     pod 'Moya'
     pod 'SwiftyJSON'
+    pod 'HandyJSON'
+    pod 'GearRefreshControl'
+    pod 'Alamofire'
+    pod 'Kingfisher'
+    pod 'MJRefresh'
+    #消息提示
+    pod 'SwiftMessages'
+    #pod 'YYKit'
+    pod 'SVProgressHUD'
 end

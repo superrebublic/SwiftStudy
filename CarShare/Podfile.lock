@@ -1,30 +1,57 @@
 PODS:
   - Alamofire (5.6.2)
+  - GearRefreshControl (1.0.1)
+  - HandyJSON (5.0.2)
+  - Kingfisher (6.3.1)
+  - MJRefresh (3.7.5)
   - Moya (15.0.0):
     - Moya/Core (= 15.0.0)
   - Moya/Core (15.0.0):
     - Alamofire (~> 5.0)
   - SnapKit (5.6.0)
+  - SVProgressHUD (2.2.5)
+  - SwiftMessages (9.0.6):
+    - SwiftMessages/App (= 9.0.6)
+  - SwiftMessages/App (9.0.6)
   - SwiftyJSON (5.0.1)
 
 DEPENDENCIES:
+  - Alamofire
+  - GearRefreshControl
+  - HandyJSON
+  - Kingfisher
+  - MJRefresh
   - Moya
   - SnapKit
+  - SVProgressHUD
+  - SwiftMessages
   - SwiftyJSON
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - GearRefreshControl
+    - HandyJSON
+    - Kingfisher
+    - MJRefresh
     - Moya
     - SnapKit
+    - SVProgressHUD
+    - SwiftMessages
     - SwiftyJSON
 
 SPEC CHECKSUMS:
   Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  GearRefreshControl: f1d4cf97b6440bbd47d6a8a32fe2aaddd6d1e3cb
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  Kingfisher: 016c8b653a35add51dd34a3aba36b580041acc74
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
   Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftMessages: f0c7ef4705a570ad6c5e208b611f4333e660ed92
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
 
-PODFILE CHECKSUM: f67aa417ff13a5420cfe05923c861b941797b82b
+PODFILE CHECKSUM: ff7c188c653609e8f066a97325f91b3fda803a9f
 
 COCOAPODS: 1.11.3
